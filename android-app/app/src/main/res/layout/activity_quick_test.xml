@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="match_parent" android:layout_height="match_parent" android:background="@color/bg" android:orientation="vertical" android:padding="22dp">
+<TextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="Quick Test" android:textColor="@color/navy" android:textSize="28sp" android:textStyle="bold"/>
+<TextView android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="8dp" android:text="Pilih kategori dan jumlah soal." android:textColor="@color/muted"/>
+<RadioGroup android:id="@+id/radioQuickCategory" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="18dp">
+<RadioButton android:id="@+id/quickAll" android:layout_width="wrap_content" android:layout_height="wrap_content" android:checked="true" android:tag="ALL" android:text="Campuran TWK + TIU + TKP"/>
+<RadioButton android:id="@+id/quickTWK" android:layout_width="wrap_content" android:layout_height="wrap_content" android:tag="TWK" android:text="TWK"/>
+<RadioButton android:id="@+id/quickTIU" android:layout_width="wrap_content" android:layout_height="wrap_content" android:tag="TIU" android:text="TIU"/>
+<RadioButton android:id="@+id/quickTKP" android:layout_width="wrap_content" android:layout_height="wrap_content" android:tag="TKP" android:text="TKP"/>
+</RadioGroup>
+<Button android:id="@+id/btnQuick5" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="18dp" android:text="5 Soal"/>
+<Button android:id="@+id/btnQuick10" android:layout_width="match_parent" android:layout_height="wrap_content" android:text="10 Soal"/>
+<Button android:id="@+id/btnQuick20" android:layout_width="match_parent" android:layout_height="wrap_content" android:text="20 Soal"/>
+</LinearLayout>

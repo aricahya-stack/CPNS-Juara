@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/bg"
+    android:orientation="vertical"
+    android:padding="22dp">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Profil"
+        android:textColor="@color/navy"
+        android:textSize="28sp"
+        android:textStyle="bold"/>
+
+    <ImageView
+        android:layout_width="88dp"
+        android:layout_height="88dp"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="28dp"
+        android:contentDescription="@string/app_name"
+        android:src="@drawable/cpns_juara_logo"/>
+
+    <TextView
+        android:id="@+id/txtProfileName"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:gravity="center"
+        android:textColor="@color/navy"
+        android:textSize="22sp"
+        android:textStyle="bold"/>
+
+    <TextView
+        android:id="@+id/txtProfileEmail"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:textColor="@color/text"
+        android:textSize="15sp"/>
+
+    <TextView
+        android:id="@+id/txtProfileStatus"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="18dp"
+        android:background="@drawable/bg_card"
+        android:padding="18dp"
+        android:textColor="@color/text"/>
+
+    <Button
+        android:id="@+id/btnSyncProfile"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="18dp"
+        android:text="Sinkronkan Akun"/>
+
+    <Button
+        android:id="@+id/btnPremiumFromProfile"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="🏆 Premium"/>
+
+    <Button
+        android:id="@+id/btnLoginOrLogout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Keluar"/>
+</LinearLayout>

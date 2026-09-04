@@ -1,0 +1,22 @@
+CPNS JUARA — Firebase Configuration
+
+Letakkan file ASLI berikut di folder yang sama dengan file ini:
+
+google-services.json
+
+Lokasi final:
+android-app/app/google-services.json
+
+Jangan rename menjadi nama lain.
+
+Cara mendapatkannya:
+1. Buka Firebase Console.
+2. Buat / pilih project CPNS JUARA.
+3. Add app → Android.
+4. Android package name HARUS: com.cpnsjuara.app
+5. Tambahkan SHA-1 untuk Google Sign-In.
+6. Download google-services.json.
+7. Copy file tersebut ke android-app/app/.
+8. Firebase Console → Authentication → Sign-in method → aktifkan Google.
+
+File google-services.json tidak disertakan dalam ZIP karena harus berasal dari project Firebase milik Anda.

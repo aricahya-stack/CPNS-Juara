@@ -1,0 +1,25 @@
+CPNS JUARA v2.4 — FINAL SOURCE VERIFICATION
+
+PASS — Python source syntax
+PASS — JavaScript WYSIWYG syntax via node --check
+PASS — 18 Android XML/Manifest files parse
+PASS — Kotlin Models.kt basic compilation
+PASS — SQLite Android v5 contract
+PASS — Stimulus remains structured/separate from prompt
+PASS — Option A-E each use one content_html field
+PASS — No executable split option text/image fields
+PASS — API raw HTML + rendered MathML contract
+PASS — Android RichContentRenderer + RichOptionSelector
+PASS — Offline cache for rich-content images
+PASS — No literal Stimulus/Pertanyaan heading in Android question UI
+PASS — Jodit 4.13.23 + KaTeX 0.18.4 pins
+PASS — Template Excel KISI-KISI + SOAL present
+PASS — No .env, db.sqlite3, google-services.json, .venv, staticfiles, Android build cache shipped
+
+Runtime checks on MacBook:
+1. ./01_INSTALL_ADMIN_MAC.command
+2. ./03_VERIFY_ADMIN_MAC.command
+3. ./06_PREPARE_ANDROID_MAC.command
+4. ./07_BUILD_ANDROID_GUEST_MAC.command
+
+Full Django runtime tests and Android Gradle compilation are intentionally performed on the user's Mac after dependencies/Android SDK are available.

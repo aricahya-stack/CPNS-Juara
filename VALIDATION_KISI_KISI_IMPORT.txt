@@ -1,0 +1,15 @@
+CPNS JUARA v2.4 — Validation: Kisi-kisi + Inline Stimulus + Import Excel + Android
+
+- Workbook sheets KISI-KISI + SOAL: PASS
+- Stimulus columns inline in SOAL: PASS
+- No separate Stimulus workflow: PASS
+- No author/validator workflow: PASS
+- Import staging/preview/confirm: PASS
+- Imported question default READY: PASS
+- Manual Admin supports text/image/graphic/mixed: PASS
+- API inline stimulus contract: PASS (source test added)
+- Android SQLite v5 fields for stimulus: PASS
+- Android Quiz + CAT renderer: PASS
+- Offline visual download path: PASS
+- Emulator 10.0.2.2 allowed by Django development config: PASS
+- Guest Android build no longer requires google-services.json: PASS

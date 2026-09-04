@@ -1,0 +1,15 @@
+CPNS JUARA v2.4 — VALIDATION TARGETS
+
+[PASS] Python source syntax
+[PASS] Android XML parse
+[PASS] JavaScript WYSIWYG syntax (node --check)
+[PASS] Kotlin Models.kt compilation
+[PASS] SQLite Android version 5
+[PASS] Web/API Option.content_html contract
+[PASS] API HTML + MathML rendered_html contract
+[PASS] Android RichOptionSelector + RichContentRenderer present
+[PASS] Rich image offline cache present
+[PASS] Firebase optional for Guest build
+[PASS] No .env / db.sqlite3 / google-services.json in source
+
+Django runtime tests are executed by 03_VERIFY_ADMIN_MAC.command after the Mac installer has installed requirements.

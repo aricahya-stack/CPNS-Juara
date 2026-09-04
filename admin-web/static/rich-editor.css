@@ -1,0 +1,8 @@
+.jodit-container{border:1px solid #d9e2ef!important;border-radius:12px!important;overflow:hidden;background:#fff}
+.jodit-toolbar__box{background:#f7faff!important;border-bottom:1px solid #e3eaf3!important}
+.jodit-wysiwyg{line-height:1.65!important;color:#17243b!important;padding:14px 16px!important}
+.jodit-wysiwyg img{max-width:100%;height:auto;border-radius:8px}
+.jodit-wysiwyg table{border-collapse:collapse;width:100%}
+.jodit-wysiwyg td,.jodit-wysiwyg th{border:1px solid #d8e0eb;padding:7px}
+.inline-group .tabular textarea.cpns-rich-editor{min-width:320px}
+@media(max-width:900px){.inline-group .tabular{overflow:auto}.inline-group .tabular textarea.cpns-rich-editor{min-width:260px}}
